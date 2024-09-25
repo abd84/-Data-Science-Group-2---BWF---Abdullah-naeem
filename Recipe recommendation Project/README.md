@@ -29,12 +29,11 @@ The **Recipe Recommendation System** is an intelligent web application that assi
 
 - **Python**: The main programming language used for backend development.
 - **Apache Spark**: Utilized for big data processing, enabling fast and scalable computations.
-- **Streamlit**: A lightweight web framework that provides the backbone for the web application.
+- **Streamlit**: A lightweight web framework that provides the backbone for the web application.(Currently in development)
 - **HTML/CSS**: Used for the frontend interface design.
 - **CSV**: The dataset is stored in a CSV format, making it easy to read and manipulate.
 
 ## Dataset
-
 The dataset used for this project is a CSV file named `df_cleaned.csv`, which contains various details about recipes. Key columns in the dataset include:
 
 - **recipe_name**: The name of the recipe.
@@ -55,7 +54,7 @@ The architecture of the application is structured as follows:
    - **TF-IDF Transformation**: The Term Frequency-Inverse Document Frequency (TF-IDF) method is applied to quantify the importance of each ingredient in the dataset.
 3. **Recommendation Algorithms**:
    - **Centered Cosine Similarity**: Utilized for calculating similarities between recipes based on user input.
-4. **Web Application**: The Streamlit web server handles user requests and serves HTML templates to display the results.
+4. **Web Application**: The Streamlit web server handles user requests and serves HTML templates to display the results. (In development)
 
 ### Prerequisites
 
